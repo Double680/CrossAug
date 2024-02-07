@@ -1,4 +1,4 @@
-# CDR-LLM-UIR
+# CrossAug
 
 ## Prerequisites
 
