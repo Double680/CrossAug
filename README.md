@@ -42,7 +42,7 @@ The script takes inputs of filtered files from `filtered` folder and save output
 
 ## Implementation Details
 
-Please refer to `default.yaml` and check the model configuration and hyperparameters.
+Please refer to `config.yaml` and check the model configuration and hyperparameters.
 
 ## Running
 
