@@ -1,0 +1,53 @@
+CrossAug:
+  embedding_size: 128
+  shared_dim: 64
+  epoch: 100
+  neg_ratio: 1
+  n_layers: 2
+  reg_weight: 0.001
+  batch_size: 1024
+  cbatch_size: 512
+  d1_lambda: 0.5
+  d2_lambda: 0.5
+  drop_rate: 0.3
+  optim: Adam
+
+datasets:
+  Amazon:
+    Movie-Music:
+      path: "./datasets/processed/Amazon/Movie-Music"
+      n_shared_users: 1926
+      domain_1: 
+        name: "Movie"
+        n_users: 38064
+        n_items: 17125
+        n_train: 320906
+        n_valid: 38064
+        n_test: 38064
+      domain_2: 
+        name: "Music"
+        n_users: 15404
+        n_items: 11525
+        n_train: 123223
+        n_valid: 15404
+        n_test: 15404
+
+    Cell-Elec:
+      path: "./datasets/processed/Amazon/Cell-Elec"
+      n_shared_users: 4773
+      domain_1: 
+        name: "Cell"
+        n_users: 33002
+        n_items: 14803
+        n_train: 180037
+        n_valid: 33002
+        n_test: 33002
+      domain_2: 
+        name: "Elec"
+        n_users: 53421
+        n_items: 20319
+        n_train: 321799
+        n_valid: 53421
+        n_test: 53421
+
+    

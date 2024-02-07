@@ -1,0 +1,8 @@
+datasets/raw/*
+datasets/filtered/*
+datasets/processed/*
+
+materials/*
+wandb/*
+
+*__pycache__*
