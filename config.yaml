@@ -7,8 +7,6 @@ CrossAug:
   reg_weight: 0.001
   batch_size: 1024
   cbatch_size: 512
-  d1_lambda: 0.5
-  d2_lambda: 0.5
   drop_rate: 0.3
   optim: Adam
 

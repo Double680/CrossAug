@@ -29,8 +29,6 @@ class CrossAug(nn.Module):
         self.shared_dim = params['shared_dim']
         self.n_layers = params['n_layers']
         self.reg_weight = params['reg_weight']
-        self.d1_lambda = params['d1_lambda']
-        self.d2_lambda = params['d2_lambda']
         self.drop_rate = params['drop_rate']
         self.neg_ratio = params['neg_ratio']
         self.cd_batch = params['cbatch_size']
