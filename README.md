@@ -48,7 +48,6 @@ Please refer to `config.yaml` and check the model configuration and hyperparamet
 
 Go back to the main directory and the execute the `main.py` to train & valid & test the model (with setting `--domains` to specify dual datasets):
 ```{bash}
-cd ..
 python main.py
 ```
 
