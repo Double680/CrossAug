@@ -1,5 +1,7 @@
 # CrossAug
 
+This is the official repository of the SIGIR'24 paper "Cross-reconstructed Augmentation for Dual-target Cross-domain Recommendation".
+
 ## Prerequisites
 
 Environments: python==3.9.18, pytorch==2.1.2, cuda==12.2
