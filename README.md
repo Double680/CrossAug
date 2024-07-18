@@ -54,3 +54,17 @@ python main.py
 ```
 
 Result logs can be visualized with `--wandb`.
+
+## Citation
+
+Please cite our paper in the following format if you use our code during your research.
+
+```
+@inproceedings{2024crossaug,
+  title={Cross-reconstructed Augmentation for Dual-target Cross-domain Recommendation},
+  author={Qingyang Mao, Qi Liu, Zhi Li, Likang Wu, Bing Lv and Zheng Zhang},
+  booktitle={Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)},
+  pages={2352--2356},
+  year={2024}
+}
+```
